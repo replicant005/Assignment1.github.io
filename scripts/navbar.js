@@ -23,3 +23,5 @@ document.addEventListener('DOMContentLoaded', () => {
         activeLink.classList.add('active'); // Add active class to the current page
     }
 });
+
+// theres  a difference in prompt() and alert ()

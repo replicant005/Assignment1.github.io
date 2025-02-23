@@ -1,5 +1,5 @@
 // author - mehak kapur
-// date - 28th jan 2025
+// date - 20th feb 2025
 "use strict";
 
 // Show or hide the "Back to Home" button

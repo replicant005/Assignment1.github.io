@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/lightgallery/css/lightgallery.css">
+    <link rel="stylesheet" href="./content/app.css">
+
+
+
+</head>
+<body>
+
+<header></header>
+
+<main>
+    <section id="gallery" class="gallery-section">
+        <h1>Photo Gallery</h1>
+        <!-- Gallery images will be dynamically loaded into this container -->
+        <div id="gallery-container" class="gallery-container">
+            <!-- Images will be injected here by JavaScript -->
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer text-center py-3 bg-dark text-white">
+    <p>&copy; 2025 Volunteer Connect. All Rights Reserved.</p>
+    <ul class="nav justify-content-center">
+        <li class="nav-item"><a class="nav-link text-white" href="privacy-policy.html">Privacy Policy</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="terms-of-service.html">Terms of Service</a></li>
+    </ul>
+</footer>
+
+<!-- Back to Home Button -->
+<button id="backToHome" onclick="window.location.href='index.html';">
+    <i class="fa-solid fa-arrow-left"></i>
+</button>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/lightgallery/lib/lightgallery.js"></script>
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
